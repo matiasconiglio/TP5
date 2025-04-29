@@ -1,8 +1,8 @@
-<!-- Descripción -->
+Descripción
 
 Aplicación que implementa una API REST para la gestión de productos, respetando la separación en tres capas: presentación, negocio y datos
 
-<!-- Endpoints usados -->
+Endpoints usados
 
 - `GET /productos` Listar todos los productos
 - `GET /productos/:id` Obtener un producto por ID
@@ -10,14 +10,14 @@ Aplicación que implementa una API REST para la gestión de productos, respetand
 - `PUT /productos/:id` Actualizar un producto existente
 - `DELETE /productos/:id` Eliminar un producto
 
-<!-- Características que hacen que esta sea una API REST -->
+Características que hacen que esta sea una API REST
 
 - Utiliza métodos HTTP estándar (GET, POST, PUT, DELETE)
 - Cada recurso (producto) se identifica mediante una URL clara (`/productos`)
 - La comunicación es sin estado: cada solicitud es independiente.
 - El formato de datos es JSON
 
-<!-- Diferencias respecto a la arquitectura de 3 capas anterior -->
+Diferencias respecto a la arquitectura de 3 capas anterior
 
 - Antes, la capa de presentación podía estar orientada a vistas HTML; ahora trabaja exclusivamente con datos JSON
 - Ahora la comunicación es a través de endpoints REST, no páginas
